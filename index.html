@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Creators</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://mdbootstrap.com/docs/standard/content-styles/hover-effects/#!"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <div class="w-100 py-3"> <!--Navbar-->
+        <div class="container-fluid px-xl-5 px-1">
+            <nav class="navbar navbar-expand-lg border-body mb-0">
+                <div class="container-fluid d-flex justify-content-between align-items-center">
+                    <div class="col-6">
+                        <a class="navbar-brand" href="https://sophio-madzgharashvili-boo-git-3c45a3-sophies-projects-2decf203.vercel.app/#">
+                            <img src="Storefront Icon.png" class="me-2">
+                            <img src="NFT Marketplace.png">
+                        </a>
+                    </div>
+                    
+                    <button class="navbar-toggler ms-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="nav menu.png" style="width: 24px; height: 24px;">
+                    </button>
+                        
+                    <span class="col-6">
+                        <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-light workSans mx-3" aria-current="page" href="#">Marketplace</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light workSans mx-3" href="#">Rankings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light workSans mx-3" href="https://connect-wallet-tau.vercel.app/">Connect a wallet</a>
+                            </li>
+                        </ul>
+
+                        <a class="btn text-light workSans px-4 d-flex align-items-center" type="submit" href="https://create-account-seven.vercel.app/#" style="background-color: rgba(162, 89, 255, 1); border-radius: 20px; height: 60px;">
+                            <img src="User Icon.png" style="background: none;" class="me-1">
+                            Sign Up
+                        </a>
+
+                        </div>
+                    </span>
+                </div>      
+            </nav>
+        </div>
+    </div>
+
+    <div class="w-100"> <!--Top Creators-->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-light workSans mt-5" style="font-weight: 600; font-size: 51px;">Top Creators</h2>
+                    <p class="text-light workSans" style="font-weight: 400; font-size: 22px;">Check out top ranking NFT artists on the NFT Marketplace.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="w-100"> <!--Badges-->
+        <div class="container"> 
+            <div class="row justify-content-between">
+                <div class="col-3 d-flex justify-content-center position-relative pb-4">
+                    <button type="button" class="btn">
+                        <span class="workSans text-light fontChanging4">Today</span> 
+                    </button>
+                    <hr style="border: 2px solid rgba(133, 133, 132, 1);  width: 100%; margin-top: 31px;" class="position-absolute top-50 start-0 ms-2 mb-0">
+                </div>
+                <div class="col-3 d-flex justify-content-center pb-4">
+                    <button type="button" class="btn">
+                        <span class="workSans fontChanging4"  style="color: rgba(133, 133, 132, 1);">This Week</span> 
+                    </button>
+                </div>
+                <div class="col-3 d-flex justify-content-center pb-4">
+                    <button type="button" class="btn">
+                        <span class="workSans fontChanging4"  style="color: rgba(133, 133, 132, 1);">This Month</span> 
+                    </button>
+                </div>
+                <div class="col-3 d-flex justify-content-center pb-4">
+                    <button type="button" class="btn">
+                        <span class="workSans fontChanging4"  style="color: rgba(133, 133, 132, 1);">TAll Time</span> 
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-100 pt-5"> <!--Top Creators Cards-->
+        <div class="container" style="background: none;">
+            <div class="row pt-5 justify-content-between" style="background: none;"> 
+                <div class="col-12">
+                    <div class="row spaceMono px-4 mb-5" style="border: 1px solid rgba(59, 59, 59, 1); border-radius: 20px; height: 46px;"> <!--Table 1-->
+                        <div class="col-1 d-flex align-items-center">
+                           <p style="color: rgba(133, 133, 132, 1);" class="text-center align-middle mb-0">#</p>
+                        </div>
+                        <div class="col-5 d-flex align-items-center">
+                            <p style="color: rgba(133, 133, 132, 1);" class="mb-0">Artist</p>
+                        </div>
+                        <div class="col-2 d-flex align-items-center">
+                            <p  style="color: rgba(133, 133, 132, 1);" class="mb-0">Change</p>
+                        </div>
+                        <div class="col-2 d-flex align-items-center">
+                            <p  style="color: rgba(133, 133, 132, 1);" class="mb-0">NFTs Sold</p>
+                        </div>
+                        <div class="col-2 d-flex align-items-center">
+                            <p  style="color: rgba(133, 133, 132, 1);" class="mb-0">Volume</p>
+                        </div>
+                    </div> <!--Table 2-->
+
+                    <div class="row px-4 py-3 my-5 align-items-center" style="background-color: rgba(59, 59, 59, 1); border-radius: 20px;"> <!--Card 1-1-->
+                        <div class="col-1" style="background: none;">
+                            <div class="div spaceMono d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; border-radius: 20px; color: rgba(133, 133, 132, 1);">
+                                1
+                            </div>
+                        </div>
+                        <div class="col-5 workSans text-light" style="background: none; font-weight: 600; font-size: 22px;">
+                            <img src="Jaydon Ekstrom Bothman.png" style="background: none;" class="me-3">
+                            Jaydon Ekstrom Bothman
+                        </div>
+                        <div class="col-2 workSans" style="background: none; font-weight: 400; color: rgba(0, 172, 79, 1);">
+                            +1.41%
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none; font-weight: 400;">
+                            602
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none;">
+                            12.4 ETH
+                        </div>
+                    </div> <!--Card 1-2-->
+
+                    <div class="row px-4 py-3 my-5 align-items-center" style="background-color: rgba(59, 59, 59, 1); border-radius: 20px;"> <!--Card 2-1-->
+                        <div class="col-1" style="background: none;">
+                            <div class="div spaceMono d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; border-radius: 20px; color: rgba(133, 133, 132, 1);">
+                                2
+                            </div>
+                        </div>
+                        <div class="col-5 workSans text-light" style="background: none; font-weight: 600; font-size: 22px;">
+                            <img src="Ruben Carder.png" style="background: none;" class="me-3">
+                            Ruben Carder
+                        </div>
+                        <div class="col-2 workSans" style="background: none; font-weight: 400; color: rgba(0, 172, 79, 1);">
+                            +1.41%
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none; font-weight: 400;">
+                            602
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none;">
+                            12.4 ETH
+                        </div>
+                    </div> <!--Card 2-2-->
+
+                    <div class="row px-4 py-3 my-5 align-items-center" style="background-color: rgba(59, 59, 59, 1); border-radius: 20px;"> <!--Card 3-1-->
+                        <div class="col-1" style="background: none;">
+                            <div class="div spaceMono d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; border-radius: 20px; color: rgba(133, 133, 132, 1);">
+                                3
+                            </div>
+                        </div>
+                        <div class="col-5 workSans text-light" style="background: none; font-weight: 600; font-size: 22px;">
+                            <img src="Alfredo Septimus.png" style="background: none;" class="me-3">
+                            Alfredo Septimus
+                        </div>
+                        <div class="col-2 workSans" style="background: none; font-weight: 400; color: rgba(0, 172, 79, 1);">
+                            +1.41%
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none; font-weight: 400;">
+                            602
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none;">
+                            12.4 ETH
+                        </div>
+                    </div> <!--Card 3-2-->
+
+                    <div class="row px-4 py-3 my-5 align-items-center" style="background-color: rgba(59, 59, 59, 1); border-radius: 20px;"> <!--Card 4-1-->
+                        <div class="col-1" style="background: none;">
+                            <div class="div spaceMono d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; border-radius: 20px; color: rgba(133, 133, 132, 1);">
+                                4
+                            </div>
+                        </div>
+                        <div class="col-5 workSans text-light" style="background: none; font-weight: 600; font-size: 22px;">
+                            <img src="Davis Franci.png" style="background: none;" class="me-3">
+                            Davis Franci
+                        </div>
+                        <div class="col-2 workSans" style="background: none; font-weight: 400; color: rgba(0, 172, 79, 1);">
+                            +1.41%
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none; font-weight: 400;">
+                            602
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none;">
+                            12.4 ETH
+                        </div>
+                    </div> <!--Card 4-2-->
+
+                    <div class="row px-4 py-3 my-5 align-items-center" style="background-color: rgba(59, 59, 59, 1); border-radius: 20px;"> <!--Card 5-1-->
+                        <div class="col-1" style="background: none;">
+                            <div class="div spaceMono d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; border-radius: 20px; color: rgba(133, 133, 132, 1);">
+                                5
+                            </div>
+                        </div>
+                        <div class="col-5 workSans text-light" style="background: none; font-weight: 600; font-size: 22px;">
+                            <img src="Livia Rosser.png" style="background: none;" class="me-3">
+                            Livia Rosser
+                        </div>
+                        <div class="col-2 workSans" style="background: none; font-weight: 400; color: rgba(0, 172, 79, 1);">
+                            +1.41%
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none; font-weight: 400;">
+                            602
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none;">
+                            12.4 ETH
+                        </div>
+                    </div> <!--Card 5-2-->
+
+                    <div class="row px-4 py-3 my-5 align-items-center" style="background-color: rgba(59, 59, 59, 1); border-radius: 20px;"> <!--Card 6-1-->
+                        <div class="col-1" style="background: none;">
+                            <div class="div spaceMono d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; border-radius: 20px; color: rgba(133, 133, 132, 1);">
+                                6
+                            </div>
+                        </div>
+                        <div class="col-5 workSans text-light" style="background: none; font-weight: 600; font-size: 22px;">
+                            <img src="Kianna Donin.png" style="background: none;" class="me-3">
+                            Kianna Donin
+                        </div>
+                        <div class="col-2 workSans" style="background: none; font-weight: 400; color: rgba(0, 172, 79, 1);">
+                            +1.41%
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none; font-weight: 400;">
+                            602
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none;">
+                            12.4 ETH
+                        </div>
+                    </div> <!--Card 6-2-->
+
+                    <div class="row px-4 py-3 my-5 align-items-center" style="background-color: rgba(59, 59, 59, 1); border-radius: 20px;"> <!--Card 7-1-->
+                        <div class="col-1" style="background: none;">
+                            <div class="div spaceMono d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; border-radius: 20px; color: rgba(133, 133, 132, 1);">
+                                7
+                            </div>
+                        </div>
+                        <div class="col-5 workSans text-light" style="background: none; font-weight: 600; font-size: 22px;">
+                            <img src="Phillip Lipshutz.png" style="background: none;" class="me-3">
+                            Phillip Lipshutz
+                        </div>
+                        <div class="col-2 workSans" style="background: none; font-weight: 400; color: rgba(0, 172, 79, 1);">
+                            +1.41%
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none; font-weight: 400;">
+                            602
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none;">
+                            12.4 ETH
+                        </div>
+                    </div> <!--Card 7-2-->
+
+                    <div class="row px-4 py-3 my-5 align-items-center" style="background-color: rgba(59, 59, 59, 1); border-radius: 20px;"> <!--Card 8-1-->
+                        <div class="col-1" style="background: none;">
+                            <div class="div spaceMono d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; border-radius: 20px; color: rgba(133, 133, 132, 1);">
+                                8
+                            </div>
+                        </div>
+                        <div class="col-5 workSans text-light" style="background: none; font-weight: 600; font-size: 22px;">
+                            <img src="Maria Rosser.png" style="background: none;" class="me-3">
+                            Maria Rosser
+                        </div>
+                        <div class="col-2 workSans" style="background: none; font-weight: 400; color: rgba(0, 172, 79, 1);">
+                            +1.41%
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none; font-weight: 400;">
+                            602
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none;">
+                            12.4 ETH
+                        </div>
+                    </div> <!--Card 8-2-->
+                    <div class="row px-4 py-3 my-5 align-items-center" style="background-color: rgba(59, 59, 59, 1); border-radius: 20px;"> <!--Card 9-1-->
+                        <div class="col-1" style="background: none;">
+                            <div class="div spaceMono d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; border-radius: 20px; color: rgba(133, 133, 132, 1);">
+                                9
+                            </div>
+                        </div>
+                        <div class="col-5 workSans text-light" style="background: none; font-weight: 600; font-size: 22px;">
+                            <img src="Kianna Stanton.png" style="background: none;" class="me-3">
+                            Kianna Stanton
+                        </div>
+                        <div class="col-2 workSans" style="background: none; font-weight: 400; color: rgba(0, 172, 79, 1);">
+                            +1.41%
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none; font-weight: 400;">
+                            602
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none;">
+                            12.4 ETH
+                        </div>
+                    </div> <!--Card 9-2-->
+
+                    <div class="row px-4 py-3 my-5 align-items-center" style="background-color: rgba(59, 59, 59, 1); border-radius: 20px;"> <!--Card 10-1-->
+                        <div class="col-1" style="background: none;">
+                            <div class="div spaceMono d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; border-radius: 20px; color: rgba(133, 133, 132, 1);">
+                                10
+                            </div>
+                        </div>
+                        <div class="col-5 workSans text-light" style="background: none; font-weight: 600; font-size: 22px;">
+                            <img src="Angel Lubin.png" style="background: none;" class="me-3">
+                            Angel Lubin
+                        </div>
+                        <div class="col-2 workSans" style="background: none; font-weight: 400; color: rgba(0, 172, 79, 1);">
+                            +1.41%
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none; font-weight: 400;">
+                            602
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none;">
+                            12.4 ETH
+                        </div>
+                    </div> <!--Card 10-2-->
+
+                    <div class="row px-4 py-3 my-5 align-items-center" style="background-color: rgba(59, 59, 59, 1); border-radius: 20px;"> <!--Card 11-1-->
+                        <div class="col-1" style="background: none;">
+                            <div class="div spaceMono d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; border-radius: 20px; color: rgba(133, 133, 132, 1);">
+                                11
+                            </div>
+                        </div>
+                        <div class="col-5 workSans text-light" style="background: none; font-weight: 600; font-size: 22px;">
+                            <img src="Allison Torff.png" style="background: none;" class="me-3">
+                            Allison Torff
+                        </div>
+                        <div class="col-2 workSans" style="background: none; font-weight: 400; color: rgba(0, 172, 79, 1);">
+                            +1.41%
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none; font-weight: 400;">
+                            602
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none;">
+                            12.4 ETH
+                        </div>
+                    </div> <!--Card 11-2-->
+
+                    <div class="row px-4 py-3 my-5 align-items-center" style="background-color: rgba(59, 59, 59, 1); border-radius: 20px;"> <!--Card 12-1-->
+                        <div class="col-1" style="background: none;">
+                            <div class="div spaceMono d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; border-radius: 20px; color: rgba(133, 133, 132, 1);">
+                                12
+                            </div>
+                        </div>
+                        <div class="col-5 workSans text-light" style="background: none; font-weight: 600; font-size: 22px;">
+                            <img src="Davis Workman.png" style="background: none;" class="me-3">
+                            Davis Workman
+                        </div>
+                        <div class="col-2 workSans" style="background: none; font-weight: 400; color: rgba(0, 172, 79, 1);">
+                            +1.41%
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none; font-weight: 400;">
+                            602
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none;">
+                            12.4 ETH
+                        </div>
+                    </div> <!--Card 12-2-->
+
+                    <div class="row px-4 py-3 my-5 align-items-center" style="background-color: rgba(59, 59, 59, 1); border-radius: 20px;"> <!--Card 13-1-->
+                        <div class="col-1" style="background: none;">
+                            <div class="div spaceMono d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; border-radius: 20px; color: rgba(133, 133, 132, 1);">
+                                13
+                            </div>
+                        </div>
+                        <div class="col-5 workSans text-light" style="background: none; font-weight: 600; font-size: 22px;">
+                            <img src="Lindsey Lipshutz.png" style="background: none;" class="me-3">
+                            Lindsey Lipshutz
+                        </div>
+                        <div class="col-2 workSans" style="background: none; font-weight: 400; color: rgba(0, 172, 79, 1);">
+                            +1.41%
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none; font-weight: 400;">
+                            602
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none;">
+                            12.4 ETH
+                        </div>
+                    </div> <!--Card 13-2-->
+
+                    <div class="row px-4 py-3 my-5 align-items-center" style="background-color: rgba(59, 59, 59, 1); border-radius: 20px;"> <!--Card 14-1-->
+                        <div class="col-1" style="background: none;">
+                            <div class="div spaceMono d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; border-radius: 20px; color: rgba(133, 133, 132, 1);">
+                                14
+                            </div>
+                        </div>
+                        <div class="col-5 workSans text-light" style="background: none; font-weight: 600; font-size: 22px;">
+                            <img src="Randy Carder.png" style="background: none;" class="me-3">
+                            Randy Carder
+                        </div>
+                        <div class="col-2 workSans" style="background: none; font-weight: 400; color: rgba(0, 172, 79, 1);">
+                            +1.41%
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none; font-weight: 400;">
+                            602
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none;">
+                            12.4 ETH
+                        </div>
+                    </div> <!--Card 14-2-->
+
+                    <div class="row px-4 py-3 my-5 align-items-center" style="background-color: rgba(59, 59, 59, 1); border-radius: 20px;"> <!--Card 15-1-->
+                        <div class="col-1" style="background: none;">
+                            <div class="div spaceMono d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; border-radius: 20px; color: rgba(133, 133, 132, 1);">
+                                15
+                            </div>
+                        </div>
+                        <div class="col-5 workSans text-light" style="background: none; font-weight: 600; font-size: 22px;">
+                            <img src="Lydia Culhane.png" style="background: none;" class="me-3">
+                            Lydia Culhane
+                        </div>
+                        <div class="col-2 workSans" style="background: none; font-weight: 400; color: rgba(0, 172, 79, 1);">
+                            +1.41%
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none; font-weight: 400;">
+                            602
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none;">
+                            12.4 ETH
+                        </div>
+                    </div> <!--Card 15-2-->
+
+                    <div class="row px-4 py-3 my-5 align-items-center" style="background-color: rgba(59, 59, 59, 1); border-radius: 20px;"> <!--Card 16-1-->
+                        <div class="col-1" style="background: none;">
+                            <div class="div spaceMono d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; border-radius: 20px; color: rgba(133, 133, 132, 1);">
+                                16
+                            </div>
+                        </div>
+                        <div class="col-5 workSans text-light" style="background: none; font-weight: 600; font-size: 22px;">
+                            <img src="Rayna Bator.png" style="background: none;" class="me-3">
+                            Rayna Bator
+                        </div>
+                        <div class="col-2 workSans" style="background: none; font-weight: 400; color: rgba(0, 172, 79, 1);">
+                            +1.41%
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none; font-weight: 400;">
+                            602
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none;">
+                            12.4 ETH
+                        </div>
+                    </div> <!--Card 16-2-->
+
+                    <div class="row px-4 py-3 my-5 align-items-center" style="background-color: rgba(59, 59, 59, 1); border-radius: 20px;"> <!--Card 17-1-->
+                        <div class="col-1" style="background: none;">
+                            <div class="div spaceMono d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; border-radius: 20px; color: rgba(133, 133, 132, 1);">
+                                17
+                            </div>
+                        </div>
+                        <div class="col-5 workSans text-light" style="background: none; font-weight: 600; font-size: 22px;">
+                            <img src="Jocelyn Westervelt.png" style="background: none;" class="me-3">
+                            Jocelyn Westervelt
+                        </div>
+                        <div class="col-2 workSans" style="background: none; font-weight: 400; color: rgba(0, 172, 79, 1);">
+                            +1.41%
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none; font-weight: 400;">
+                            602
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none;">
+                            12.4 ETH
+                        </div>
+                    </div> <!--Card 17-2-->
+
+                    <div class="row px-4 py-3 my-5 align-items-center" style="background-color: rgba(59, 59, 59, 1); border-radius: 20px;"> <!--Card 18-1-->
+                        <div class="col-1" style="background: none;">
+                            <div class="div spaceMono d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; border-radius: 20px; color: rgba(133, 133, 132, 1);">
+                                18
+                            </div>
+                        </div>
+                        <div class="col-5 workSans text-light" style="background: none; font-weight: 600; font-size: 22px;">
+                            <img src="Marilyn Torff" style="background: none;" class="me-3">
+                            Marilyn Torff
+                        </div>
+                        <div class="col-2 workSans" style="background: none; font-weight: 400; color: rgba(0, 172, 79, 1);">
+                            +1.41%
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none; font-weight: 400;">
+                            602
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none;">
+                            12.4 ETH
+                        </div>
+                    </div> <!--Card 18-2-->
+
+                    <div class="row px-4 py-3 my-5 align-items-center" style="background-color: rgba(59, 59, 59, 1); border-radius: 20px;"> <!--Card 19-1-->
+                        <div class="col-1" style="background: none;">
+                            <div class="div spaceMono d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; border-radius: 20px; color: rgba(133, 133, 132, 1);">
+                                19
+                            </div>
+                        </div>
+                        <div class="col-5 workSans text-light" style="background: none; font-weight: 600; font-size: 22px;">
+                            <img src="Skylar Levin.png" style="background: none;" class="me-3">
+                            Skylar Levin
+                        </div>
+                        <div class="col-2 workSans" style="background: none; font-weight: 400; color: rgba(0, 172, 79, 1);">
+                            +1.41%
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none; font-weight: 400;">
+                            602
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none;">
+                            12.4 ETH
+                        </div>
+                    </div> <!--Card 19-2-->
+
+                    <div class="row px-4 py-3 my-5 align-items-center" style="background-color: rgba(59, 59, 59, 1); border-radius: 20px;"> <!--Card 20-1-->
+                        <div class="col-1" style="background: none;">
+                            <div class="div spaceMono d-flex align-items-center justify-content-center" style="width: 30px; height: 30px; border-radius: 20px; color: rgba(133, 133, 132, 1);">
+                                20
+                            </div>
+                        </div>
+                        <div class="col-5 workSans text-light" style="background: none; font-weight: 600; font-size: 22px;">
+                            <img src="Terry Dorwart.png" style="background: none;" class="me-3">
+                            Terry Dorwart
+                        </div>
+                        <div class="col-2 workSans" style="background: none; font-weight: 400; color: rgba(0, 172, 79, 1);">
+                            +1.41%
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none; font-weight: 400;">
+                            602
+                        </div>
+                        <div class="col-2 workSans text-light" style="background: none;">
+                            12.4 ETH
+                        </div>
+                    </div> <!--Card 20-2-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-100 pt-5" style="background-color: rgba(59, 59, 59, 1);"> <!--hr 2-->
+        <div class="container-fluid" style="background: none;">
+            <div class="row" style="background: none;">
+                <div class="col-12 px-0" style="background: none;">
+                    <hr style="border: 2px solid rgba(43, 43, 43, 1);">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer> <!--Footer-->
+        <div class="w-100 pt-5" style="background-color: rgba(59, 59, 59, 1);">
+            <div class="container" style="background: none;">
+                <div class="row ps-xl-4 ps-0" style="background: none;">
+                    <div class="col-xl-5 col-12" style="background: none;">
+                        <a href="https://sophio-madzgharashvili-boo-git-3c45a3-sophies-projects-2decf203.vercel.app/#" style="background: none;" >
+                            <img src="Storefront Icon.png" class="me-2" style="background: none;">
+                            <img src="NFT Marketplace.png" style="background: none;">
+                        </a>
+                        <p class="mt-4 workSans" style="font-weight: 400; color: rgba(204, 204, 204, 1); background: none;">
+                            NFT marketplace UI created<br> with Anima for Figma.
+                        </p>
+                        <a href="#" class="text-decoration-none workSans" style="font-weight: 400; color: rgba(204, 204, 204, 1); background: none;">Join our community</a>
+                        <div class="d-flex justify-content-start mt-3" style="background: none;">
+                            <a href="#" style="background: none;" class="me-2">
+                                <img src="DiscordLogo.png" style="background: none;">
+                            </a>
+                            <a href="#" style="background: none;" class="mx-2">
+                                <img src="YoutubeLogo.png" style="background: none;">
+                            </a>
+                            <a href="#" style="background: none;" class="mx-2">
+                                <img src="TwitterLogo.png" style="background: none;">
+                            </a>
+                            <a href="#" style="background: none;" class="mx-2">
+                                <img src="InstagramLogo.png" style="background: none;">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-12 mt-xl-0 mt-4" style="background: none;">
+                        <h5 class="text-light spaceMono fw-bold" style="font-size: 22px; background: none;">Explore</h5><br>
+                        <a href="#" class="text-decoration-none workSans" style="font-weight: 400; color: rgba(204, 204, 204, 1); background: none;">Marketplace</a><br><br>
+                        <a href="#" class="text-decoration-none workSans" style="font-weight: 400; color: rgba(204, 204, 204, 1); background: none;">Rankings</a><br><br>
+                        <a href="https://connect-wallet-tau.vercel.app/" class="text-decoration-none workSans" style="font-weight: 400; color: rgba(204, 204, 204, 1); background: none;">Connect a wallet</a>
+                    </div>
+                    <div class="col-xl-5 col-12 mt-xl-0 mt-4 ps-0" style="background: none;">
+                        <div class="card" style="background: none; border: none;">
+                            <div class="card-body pt-0" style="background: none;">
+                                <h5 class="card-title spaceMono text-light" style="font-size: 22px; background: none;">Join Our Weekly Digest</h5><br>
+                                <p class="card-text workSans" style="background: none; font-weight: 400; color: rgba(204, 204, 204, 1);">Get exclusive promotions & updates<br> straight to your inbox.</p>
+                                <div class="d-xl-flex d-md-flex d-block" style="background: none;">
+                                    <input type="text" class="bg bg-light ps-3 ms-0 inp2 d-xl-block d-lg-block d-md-block d-none" placeholder="Enter your email here" aria-label="What are you looking for?" aria-describedby="basic-addon2"  style="border-top-left-radius: 20px; border-bottom-left-radius: 20px; outline: none; width: 60%; height: 60px; border: none; ">
+                                    <input type="text" class="bg bg-light ps-3 ms-0 inp2 d-xl-none d-lg-none d-md-none d-block mb-2 mt-0" placeholder="Enter your email Address" aria-label="...?" aria-describedby="basic-addon2"  style="border: none; border-radius: 20px; outline: none; width: 100%; height: 46px;">
+                                    <a href="https://www.animaapp.com/?utm_source=figma-samples&utm_campaign=figma-nftmarket&utm_medium=figma-samples" class="btn px-4 workSans d-flex align-items-center justify-content-center buttonChanging4" style=" border-radius: 20px; background-color: rgba(162, 89, 255, 1); color: rgba(255, 255, 255, 1);" target="_blank">
+                                        <img src="EnvelopeSimple.png" style="background: none;" class="me-2 d-xl-none d-md-none d-block">
+                                        subscribe
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="row" style="background: none;">
+                    <div class="col-12 ps-xl-0 ps-4" style="background: none;">
+                        <hr style="border: 1px solid rgba(133, 133, 132, 1);">
+                    </div>
+                </div>
+                <div class="row" style="background: none;">
+                    <div class="col-12 ps-xl-0 ps-4" style="background: none;">
+                        <p class="workSans" style="font-weight: 400; font-size: 12px; color: rgba(204, 204, 204, 1); background: none;">
+                            Ⓒ NFT Market. Use this template freely.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

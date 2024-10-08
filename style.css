@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(43, 43, 43, 1);
+}
+
+
+@font-face {
+    font-family: "workSans";
+    src: url("WorkSans-Regular.ttf");
+}
+
+
+
+@font-face {
+    font-family: "spaceMono";
+    src: url("SpaceMono-Regular.ttf");
+}
+
+
+
+.workSans {
+    font-family: "workSans";
+}
+
+
+.spaceMono {
+    font-family: "spaceMono";
+}
+
+
+
+  
+.buttonChanging4 {
+    width: 40%;
+    height: 60px;
+    margin-left: -30px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .buttonChanging4 {
+        width: 100%;
+        height: 46px;
+        margin-left: auto
+    }
+
+}
+
+
+
+
+.fontChanging1 {
+    font-size: 51px;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .fontChanging1 {
+        font-size: 38px;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .fontChanging1 {
+        font-size: 28px;
+    }
+}
+
+
+
+
+.fontChanging3 {
+    font-size: 28px;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .fontChanging3 {
+        font-size: 22px;
+    }
+
+}
+
+
+
+.fontChanging4 {
+    font-size: 22px;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .fontChanging4 {
+        font-size: 16px;
+    }
+
+}
+
+
+
+.fontChanging12 {
+    font-size: 16px !important;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .fontChanging12 {
+        font-size: 12px !important;
+    }
+}
+
+
+
+.iconChanging11 {
+    width: 32px;
+    height: 32px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .iconChanging11 {
+        width: 24px;
+        height: 24px;
+    }
+
+}
+
+
+.input1 {
+    background-image: url("MagnifyingGlass.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: 1070px;
+}
+
+
+.input1::placeholder {
+    font-family: "workSans";
+    color: rgba(133, 133, 132, 1);
+    font-weight: 400;
+}

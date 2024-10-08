@@ -107,16 +107,33 @@
 }
 
 
+.fontChanging19 {
+    font-size: 22px;
+    font-weight: 600;
+}
 
-.fontChanging12 {
+
+
+
+@media screen and (max-width: 768px) {
+    .fontChanging19 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+}
+
+
+
+.fontChanging17 {
     font-size: 16px !important;
 }
 
 
 
 
-@media screen and (max-width: 992px) {
-    .fontChanging12 {
+@media screen and (max-width: 768px) {
+    .fontChanging17 {
         font-size: 12px !important;
     }
 }
@@ -151,4 +168,21 @@
     font-family: "workSans";
     color: rgba(133, 133, 132, 1);
     font-weight: 400;
+}
+
+
+
+.avatar {
+    width: 60px;
+    height: 60px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .avatar {
+        width: 24px;
+        height: 24px;
+    }
+
 }
